@@ -4,11 +4,11 @@
 # This file is a part of < https://github.com/Zilzalll/ZThon/ >
 # PLease read the GNU Affero General Public License in
 # <https://www.github.com/Zilzalll/ZThon/blob/main/LICENSE/>.
-"""سـورس زدثــون ™
+""" pro ™
 So تخمـط الملـف اهينك واطشك للناس خماط واوثق عليك
 Copyright (C) 2023 Zilzalll . All Rights Reserved
-Credit: https://github.com/Zilzalll/ZThon
-Devloper: https://t.me/zzzzl1l - زلــزال الهيبــه"""
+Credit: https://github.com/mustaphanop/mustapha
+Devloper: https://t.me/EU_UV -  """
 """import json
 import math
 import asyncio
