@@ -23,7 +23,7 @@ def plug_checker(plugin):
     command=("نصب", plugin_category),
     info={
         "header": "لـ تنصيب ملفـات اضافيـه.",
-        "الوصـف": "بالـرد ع اي ملف (يدعم سورس زدثــون) لـ تنصيبه في بوتك.",
+        "الوصـف": "بالـرد ع اي ملف (يدعم سورس برو ) لـ تنصيبه في بوتك.",
         "الاستخـدام": "{tr}نصب بالــرد ع ملـف",
     },
 )
@@ -99,7 +99,7 @@ async def load(event):
 async def send(event):
     "لـ تحميـل وجلب اي ملف من ملفـات السـورس اليك ع تيليجـرام"
     zelzal = event.sender_id
-    zed_dev = (1895219306, 925972505, 5176749470, 5280339206, 5992422584, 6550930943, 6227985448, 5746412340)
+    zed_dev = (6140849049, 1402603453, 6280055841)
     if zelzal not in zed_dev:
         return await edit_delete(event, "**- عـذࢪاً .. عـزيـزي ؟!**\n**- هـذا الامـࢪ خاص بمطـوࢪ السـوࢪس**", 10)
     reply_to_id = await reply_id(event)
@@ -134,7 +134,7 @@ async def send(event):
 async def unload(event):
     "لـ الغـاء تحميـل اي ملـف من السـورس."
     zelzal = event.sender_id
-    zed_dev = (1895219306, 925972505, 5176749470, 5280339206, 5992422584, 6550930943, 6227985448, 5746412340)
+    zed_dev = (6140849049, 1402603453, 6280055841, 5280339206)
     if zelzal not in zed_dev:
         return await edit_delete(event, "**- عـذࢪاً .. عـزيـزي ؟!**\n**- هـذا الامـࢪ خاص بمطـوࢪ السـوࢪس**", 10)
     shortname = event.pattern_match.group(1)
